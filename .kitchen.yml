@@ -1,15 +1,3 @@
-<%
-  # Use the runlist, attributes and other settings defined in node.json to
-  # ensure .kitchen.yml runs against the exact same configuration as Vagrantfile.
-  require 'json'
-  if !File.exist?('install_cypress_cvu.json')
-    puts 'Aborting .kitchen.yml: required install_cypress_cvu.json does not exist'
-    exit
-  else
-    node = JSON.parse(File.read('install_cypress_cvu.json'))
-  end
-%>
----
 driver:
   name: vagrant
   customize:

@@ -1,8 +1,8 @@
-name             'cypress'
-maintainer       'MITRE'
-maintainer_email 'mokeefe@mitre.org'
+name             'ecqmEngine'
+maintainer       'OSEHRA'
+maintainer_email ''
 license          'All rights reserved'
-description      'Installs/Configures Cypress'
+description      'Installs/Configures Js-ecqm-engine'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '2.0.0'
 depends          "apt",              "~> 6.1"
