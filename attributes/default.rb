@@ -12,4 +12,4 @@ default[:ecqmEngine][:js_ecqm_repository_key] = 'https://dl.packager.io/srv/OSEH
 default[:ecqmEngine][:js_ecqm_version] = ''
 
 force_default['erlang']['install_method'] = "esl"
-force_default['erlang']['esl']['version'] = "1:20.3.6"
+force_default['erlang']['esl']['version'] = "1:21.2.6-1"
